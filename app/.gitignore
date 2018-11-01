@@ -1,0 +1,38 @@
+/build
+/build
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/captures
+
+#IntelliJ IDEA project files
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Gradle build
+build/
+.gradle/
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# OS auto gen
+
+
+Thumbs.db
+
+# Temp files
+*.bak
+*.tmp
+*.temp
+*.swp
+*.vpp~*
+*.*~
+~*.*

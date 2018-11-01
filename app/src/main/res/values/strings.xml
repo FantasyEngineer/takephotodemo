@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TakePhotoDemo</string>
+    <string name="title_activity_take_utils">TakeUtilsActivity</string>
+    <string name="title_activity_card_photo">CardPhotoActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_hstring">HStringActivity</string>
+    <string name="title_activity_https_test">HttpsTestActivity</string>
+</resources>

@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/surfaceview_idcard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </SurfaceView>
+
+    <com.cfg.takephotodemo.CameraTopRectView
+        android:id="@+id/CameraTopRectView_idcard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/buttonb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="rephoto"
+            android:text="重拍"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="takemphotoidcard"
+            android:text="获取拍照身份证"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_idcard"
+            android:layout_width="140dp"
+            android:layout_height="91dp"
+            android:layout_margin="3dp"
+            android:background="#eeeeee"
+            android:scaleType="fitXY" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
